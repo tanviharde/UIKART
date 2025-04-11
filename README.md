@@ -1,4 +1,4 @@
-# UIKart 🎨✨  
+# UIKart  
 **Download Free HTML & CSS Templates for Your Projects**
 
 UIKart is a user-friendly platform that offers a curated library of **free, ready-to-use UI templates** built with HTML and CSS. Whether you're a student, developer, or designer, you can download clean, responsive templates to speed up your project workflow.
