@@ -1,0 +1,221 @@
+<!-- home.html with updated template cards -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - UIKart</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="about.css"> -->
+</head>
+<body>
+<div class="home-container">
+    <section class="hero">
+        <div class="hero-content">
+            <div class="amazing">AMAZING</div>
+            <h1>TEMPLATES IN A <span>Single CLICK</span></h1>
+            <p>Are you ready to explore free templates ?</p>
+            <div class="cta-buttons">
+                <a href="#" class="cta-button">explore templates</a>
+                <a href="community.html" class="cta-button">join our community</a>
+            </div>
+        </div>
+        <div class="hero-image"><img src="./assets/hero_section.png"></div>
+    </section>
+
+    <section class="templates-section">
+        <h2 class="section-title">NEW</h2>
+        <div class="templates-grid">
+            <div class="template-card">
+                <div class="template-preview">
+                    <img src="./assets/card1 (2).jpg" alt="Template 1 Preview">
+                </div>
+                <div class="template-info">
+                    <h3 id="Carvilla">CarVilla</h3>
+                    <p>Created by John Doe</p>
+                </div>
+                <button class="download-button" onclick="window.location.href='download.php?file=temp1.zip'">Download</button>
+
+            </div>
+            <div class="template-card">
+                <div class="template-preview">
+                    <img src="./assets/card2 (2).jpg" alt="Template 2 Preview">
+                </div>
+                <div class="template-info">
+                    <h3 id="Mantra Yoga">Mantra yoga</h3>
+                    <p>Created by Jane Smith</p>
+                </div>
+                <button class="download-button" onclick="window.location.href='download.php?file=temp2.zip'">Download</button>
+
+            </div>
+            <div class="template-card">
+                <div class="template-preview">
+                    <img src="./assets/card4 (2).jpg" alt="Template 3 Preview">
+                </div>
+                <div class="template-info">
+                    <h3 id="Neogym">NeoGym</h3>
+                    <p>Created by Alex Johnson</p>
+                </div>
+            
+                <!-- <button class="download-button" onclick="downloadFile('temp2.zip')">Download</button> -->
+                <button class="download-button" onclick="window.location.href='download.php?file=temp3.zip'">Download</button>
+
+                
+            </div>
+        </div>
+
+        <h2 class="section-title">TRENDING</h2>
+        <div class="templates-grid">
+            <div class="template-card">
+                <div class="template-preview">
+                    <img src="./assets/card3 (2).jpg" alt="Trending Template 1 Preview">
+                </div>
+                <div class="template-info">
+                    <h3 id="Towello">Towello</h3>
+                    <p>Created by Sarah Williams</p>
+                </div>
+                <button class="download-button" onclick="window.location.href='download.php?file=temp4.zip'">Download</button>
+
+            </div>
+            <div class="template-card">
+                <div class="template-preview">
+                    <img src="./assets/card5 (2).jpg" alt="Trending Template 2 Preview">
+                </div>
+                <div class="template-info">
+                    <h3 id="Troweld Architect">Troweld Architect</h3>
+                    <p>Created by Michael Brown</p>
+                </div>
+                <button class="download-button" onclick="window.location.href='download.php?file=temp5.zip'">Download</button>
+
+            </div>
+            <div class="template-card">
+                <div class="template-preview">
+                    <img src="./assets/card7 (2).jpg" alt="Trending Template 3 Preview">
+                </div>
+                <div class="template-info">
+                    <h3 id="Gusto">Gusto</h3>
+                    <p>Created by Emily Davis</p>
+                </div>
+                <button class="download-button" onclick="window.location.href='download.php?file=temp6.zip'">Download</button>
+
+            </div>
+        </div>
+
+        <h2 class="section-title">BEST OF UIKART</h2>
+        <div class="templates-grid">
+            <div class="template-card">
+                <div class="template-preview">
+                    <img src="./assets/card8.jpg" alt="Premium Template 1 Preview">
+                </div>
+                <div class="template-info">
+                    <h3 id="Portfolio">Portfolio pro</h3>
+                    <p>Created by Robert Wilson</p>
+                </div>
+                <button class="download-button" onclick="window.location.href='download.php?file=temp8.html'">Download</button>
+            </div>
+            <div class="template-card">
+                <div class="template-preview">
+                    <img src="./assets/card6 (2).jpg" alt="Premium Template 2 Preview">
+                </div>
+                <div class="template-info">
+                    <h3 id="creative agency">Creative Agency</h3>
+                    <p>Created by Sophie Miller</p>
+                </div>
+                <button class="download-button" onclick="window.location.href='download.php?file=temp7.html'">Download</button>
+            </div>
+            <div class="template-card">
+                <div class="template-preview">
+                    <img src="./assets/card9.jpg" alt="Premium Template 3 Preview">
+                </div>
+                <div class="template-info">
+                    <h3 id="SaaS">SaaS Platform</h3>
+                    <p>Created by Daniel Taylor</p>
+                </div>
+                <button class="download-button" onclick="window.location.href='download.php?file=temp9.html'">Download</button>            </div>
+        </div>
+    </section>
+    <div class="membership-cta"></div>
+    <section class="community-section">
+        <div class="community-content">
+            <div class="community-benefits">
+                <h2>Why Join Us ?</h2>
+                <p>-Learn new tech skills</p>
+                <p>-Meet fellow developers and<br>Learn something new</p>
+                <p>-Earn and get exposure at<br>The same time</p>
+            </div>
+            <a href="community.html" class="join-circle">join the community</a>
+        </div>
+    </section>
+</div>
+<footer>
+    <div class="footer-container">
+      <div class="contact-info">
+        <h3>Contact Us</h3>
+        <p>Email: support@uikart.com</p>
+        <p>Phone: +91-9876543210</p>
+      </div>
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2025 UIKart. All rights reserved.</p>
+  </footer>
+  
+  <style>
+    footer {
+background-color: #f4f4f4;
+color: #333;
+padding: 30px 20px;
+text-align: center;
+}
+
+.footer-container {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 40px;
+margin-bottom: 20px;
+}
+
+.footer-container h3 {
+margin-bottom: 10px;
+}
+
+.social-icons {
+display: flex;
+gap: 20px;
+justify-content: center;
+margin-top: 10px;
+}
+
+.social-icons a {
+color: #000; /* black icons */
+font-size: 24px;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+.social-icons a:hover {
+color: #555; /* slightly lighter on hover */
+}
+
+footer .copyright {
+font-size: 0.85rem;
+color: #777;
+margin-top: 20px;
+}
+
+  </style>
+
+</html>
